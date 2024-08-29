@@ -5,7 +5,7 @@
 
 }
 body{
-    background: rgb(115, 219, 219);
+    background: rgb(1, 34, 34);
 }
 
 .strt-btn,
@@ -60,4 +60,34 @@ body{
 .intro{
     padding: 15px 35px 0px;
     font-weight: 500;
+}
+.rules-container .btn{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid hsl(147, 100%, 76%);
+
+}
+.rules-container .btn button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    /* border: none; */
+    font-weight: 500;
+    cursor: pointer;
+}
+.exit{
+    background: rgb(245, 248, 248);
+    border-color: rgb(0, 121, 121);
+    border-width: 0.1px;
+    color: rgb(1, 61, 61);
+}
+.ctn{
+    background: linear-gradient(to right, hsl(162, 99%, 31%), rgb(2, 138, 138));
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: none;
 }
