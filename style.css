@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(115, 219, 219);
+}
+
+.strt-btn,
+.rules-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.strt-btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(225, 248, 248);
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, hsl(147, 78%, 44%), hsl(192, 90%, 68%));
+    cursor: pointer;
+    
+}
+
+.rules-container{
+    width: 540px;
+    background: rgb(219, 253, 253);
+    border-radius: 8px;    
+
+}
+.rules-container .container-title{
+    height: 60px;
+    width: 100%;
+    border-bottom:1px solid hsl(147, 100%, 76%);
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.rules-container .rules-list{
+    padding: 15px 35px;
+}
+.rules-container .rules-list .rule{
+    margin: 5px 0;
+    font-size: 16px;
+}
+.rules-container .rules-list .rule span{
+    font-weight: 600;
+    color: rgb(2, 139, 139);
+}
+
+.intro{
+    padding: 15px 35px 0px;
+    font-weight: 500;
+}
